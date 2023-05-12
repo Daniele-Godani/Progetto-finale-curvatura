@@ -15,7 +15,7 @@ function setup() {
   createCanvas3D(windowWidth, windowHeight);
   
   //Change background color of the scene
-  background3D("#333333");
+  background3D("#FF7");
   
   hideGrid();
   
@@ -24,6 +24,7 @@ function setup() {
   align(BOTTOM);
   diffuse("grey");
   box(0, 0, 0, 6, 0.5, 6);
+
 }
 
 function draw() {
